@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Style the content */
+.content {
+    background-color: #ddd;
+    padding: 10px;
+
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* Headers */
+
+.header {
+    background-color: #3399ff;
+}
+
+.header2 {
+    background-color: #3399ff;
+    height: 700px;
+
+}
+
+/* Text */
+
+.start {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+
+}
+
+.start2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+}
+
+.title
+
+{
+    font-size: 35px;
+
+}
+
+.title2
+
+{
+    font-size: 35px;
+    color: white;
+
+}
+
+.name {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 45px;
+}
+
+.name2 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 45px;
+    color: white;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.description2 {
+    font-size: 20px;
+    color: white;
+}
+
+.about {
+    text-align: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 35px;
+}
+
+/* Boxes */
+
+.box1
+
+{
+    background-color: lightgrey;
+    height: 920px;
+
+}
+
+.flexbox{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+}
+
+.box2{
+    background-color: #3399ff;
+    height: 920px;
+}
+
+.box3{
+    background-color: lightgrey;
+    height: 920px;
+}
+
+
+.right {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 45%;
+}
+
+.left {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    width:45%;
+    height:auto;
+}
+
+/* Images */
+
+.image {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+}
+
+
+.image2 {
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image3 {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.image4 {
+    width: 250px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.image5 {
+
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.image6 {
+
+    width: 400px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 200px;
+}
